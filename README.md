@@ -1,19 +1,19 @@
-## A Brief Description
+### A Brief Description
 - **cameleon_teleop**: joystick control.
 - **jaguar4x4_driver**: drrobot jaguar 4x4 robot driver. 
 - **stroll_bearnav**: V-T&R, visual teach and repeat.
 - **zed-ros-wrapper**: ZED stereo camera ros wrapper.
 
 
-## Prerequsites
+### Prerequsites
 
 - Setup the system, network and instll ZED SDK following this doc: https://docs.google.com/document/d/1bVcLDn5SaNdEJfhhgs9zo8NH3Q-CBlKi2X29lBY4dmA/edit?usp=sharing
 
-## Environment
+### Environment
 
 - Ubuntu 16.04 + ROS kinetic
 
-## Install jaguar_nav
+### Install jaguar_nav
 
 1. Create a catkin workspace:
   ```
@@ -36,7 +36,7 @@
 
   add `source ~/jaguar_ws/devel/setup.bash` to ~/.bashrc
 
-## Joystick Control
+### Joystick Control
 
 1. Launch the robot (drivers and camera).
   ```
@@ -48,7 +48,7 @@
   ```
 Now you should be able to drive the robot using the joystick (you will need to hold the LB button).
 
-## Teach (Mapping)
+### Teach (Mapping)
 
 1. Launch the stroll-nav core and GUI.
    ```
@@ -59,11 +59,11 @@ Now you should be able to drive the robot using the joystick (you will need to h
 2. Input the file name in the "Mapper" window and click "SEND GOAL".
    Now you should be able to controll the robot using "up down left right", and the robot will move with a constant and for continouly maneuver, you should press the button multiple times rather than hold it (you should NOT hold the LB button otherwise will switch to joystick control).
 
-3. Press the LB to pause or intervene. Press Button "A" on joystick to complete the mapping session.
+3. Press the LB button to pause or intervene. Press button "A" on joystick to complete the mapping session and save the map.
 
-## Repeat (Autonomous Navigation)
+### Repeat (Autonomous Navigation)
 
 1. Load the "map" using the "loadMap" GUI. This may takes a while.
 2. Set the traversals: 1 and click "SEND GOAL". 
 
-You probably will need to give the robot an initial speed by press "up" button several times, then the robot should be able to navigate autonomously.
+You probably will need to give the robot an initial speed by pressing "up" button several times, then the robot should be able to navigate autonomously.
