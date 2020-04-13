@@ -1,0 +1,4 @@
+- git: {local-name: jaguar4x4_driver, uri: 'git@github.com:kevinlisun/Jaguar_Sheffield.git', version: odometry}
+- git: {local-name: stroll_bearnav, uri: 'git@github.com:kevinlisun/stroll_bearnav.git', version: sheffield}
+- git: {local-name: cameleon_teleop, uri: 'git@github.com:kevinlisun/cameleon_teleop.git', version: master}
+- git: {local-name: zed-ros-wrapper, uri: 'https://github.com/stereolabs/zed-ros-wrapper.git', version: master}
