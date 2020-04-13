@@ -16,32 +16,32 @@
 ### Install jaguar_nav
 
 1. Create a catkin workspace:
-  ```
-  $ mkdir ~/jaguar_ws/
-  $ git clone git clone git@github.com:kevinlisun/jaguar_nav.git src
-  $ cd ~/jajuar_ws/src
-  ```
+   ```
+   $ mkdir ~/jaguar_ws/
+   $ git clone git clone git@github.com:kevinlisun/jaguar_nav.git src
+   $ cd ~/jajuar_ws/src
+   ```
   
 2. Pull the repositories:
-  ```
-  $ wstool update
-  $ cd ..
-  $ rosdep install --from-paths src --ignore-src -r -y
-  ```
+   ```
+   $ wstool update
+   $ cd ..
+   $ rosdep install --from-paths src --ignore-src -r -y
+   ```
 3. Compile:
-  ```
-  $ catkin_make -DCMAKE_BUILD_TYPE=Release
-  ```
+   ```
+   $ catkin_make -DCMAKE_BUILD_TYPE=Release
+   ```
 4. Add ROS workspace to the environment.
 
-  add `source ~/jaguar_ws/devel/setup.bash` to ~/.bashrc
+   Add `source ~/jaguar_ws/devel/setup.bash` to ~/.bashrc
 
 ### Joystick Control
 
 1. Launch the robot (drivers and camera).
-  ```
-  $ roslaunch jaguar4x4_2014 robot.launch
-  ```
+   ```
+   $ roslaunch jaguar4x4_2014 robot.launch
+   ```
 2. Launch the joystick control.
   ```
   $ roslaunch cameleon_teleop cameleon_teleop.launch
