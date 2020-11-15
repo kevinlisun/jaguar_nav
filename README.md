@@ -1,5 +1,9 @@
 ### Video demos
 
+<p align='center'>
+    <img src="./gifs/day2night.gif" alt="drawing" width="800"/>
+</p>
+
 [FieldTest](https://youtu.be/mqoAdgJs6QY)
 
 [DenseVegatation](https://youtu.be/dV1twE4ZAPA)
