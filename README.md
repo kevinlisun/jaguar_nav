@@ -1,7 +1,8 @@
 ### Video demos
 
-<p align='center'>
+<p align='left'>
     <img src="./gifs/day2night.gif" alt="drawing" width="400"/>
+    <img src="./gifs/panorama.gif" alt="drawing" width="400"/>
 </p>
 
 [FieldTest](https://youtu.be/mqoAdgJs6QY)
