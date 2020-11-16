@@ -15,7 +15,7 @@
     <img src="./gifs/field2.gif" alt="drawing" width="400"/>
 </p>
 
-### YouTuBe
+### YouTube
 
 [Day-to-Night](https://youtu.be/4oTsYiRGueI)  
 
@@ -33,7 +33,7 @@
 
 ### Prerequsites
 
-- Setup the system, network and instll ZED SDK following this doc: https://docs.google.com/document/d/1bVcLDn5SaNdEJfhhgs9zo8NH3Q-CBlKi2X29lBY4dmA/edit?usp=sharing
+- Setup the system, network and install ZED SDK following this doc: https://docs.google.com/document/d/1bVcLDn5SaNdEJfhhgs9zo8NH3Q-CBlKi2X29lBY4dmA/edit?usp=sharing
 
 ### Environment
 
@@ -44,7 +44,7 @@
 1. Create a catkin workspace:
    ```
    $ mkdir ~/jaguar_ws/
-   $ git clone git clone git@github.com:kevinlisun/jaguar_nav.git src
+   $ git clone https://github.com/kevinlisun/jaguar_nav.git src
    $ cd ~/jajuar_ws/src
    ```
   
@@ -83,7 +83,7 @@ Now you should be able to drive the robot using the joystick (you will need to h
    ```
 
 2. Input the file name in the "Mapper" window and click "SEND GOAL".
-   Now you should be able to controll the robot using "up down left right", and the robot will move with a constant and for continouly maneuver, you should press the button multiple times rather than hold it (you should NOT hold the LB button otherwise will switch to joystick control).
+   Now you should be able to control the robot using "up down left right", and the robot will move with a constant and for continouly maneuver, you should press the button multiple times rather than hold it (you should NOT hold the LB button otherwise will switch to joystick control).
 
 3. Press the LB button to pause or intervene. Press button "A" on joystick to complete the mapping session and save the map.
 
