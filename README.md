@@ -43,9 +43,9 @@
 
 1. Create a catkin workspace:
    ```
-   $ mkdir ~/jaguar_ws/
+   $ mkdir ~/jaguar_ws/; cd ~/jaguar_ws/
    $ git clone https://github.com/kevinlisun/jaguar_nav.git src
-   $ cd ~/jajuar_ws/src
+   $ cd ~/jaguar_ws/src
    ```
   
 2. Pull the repositories:
